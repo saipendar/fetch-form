@@ -8,7 +8,7 @@ export const login = async (name, email) => {
     const response = await axios.post(
       `${BASE_URL}/auth/login`,
       { name, email },
-      { withCredentials: true,git init
+      { withCredentials: true,
        headers: {
             'Content-Type': 'application/json'
           }
